@@ -14,3 +14,8 @@ Planned:
                 - Ancient
                 - Modern
 - Creare una pagina sia per Ancient e per Modern, esporranno le opere d'arte correlate al periodo scelto
+- Ogni opera d'arte avrà una pagina di dettaglio
+          - Immagine dell'opera e nome
+          - Nome dell'autore
+          - (facoltativo) Descrizione
+          - Data di pubblicazione 
