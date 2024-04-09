@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    // Make the HTTP request:
+    // Make the HTTP request: 
     this.http.get('https://3000-lorenzovill-16progettos-s37t22o0wzd.ws-eu110.gitpod.io/api').subscribe(data => {this.results = data['results']; });
   }
 }
