@@ -5,7 +5,15 @@ v0.0.1 28/03/2024
 v0.0.2 09/04/2024
   - Template della barra di ricerca (Lorenzo)
   - Generazione del componente Homepage (Giorgio)
-      - Prendere ispirazione a questa pagina (facoltativo): https://www.unimi.it/it 
+      - Prendere ispirazione a questa pagina (facoltativo): https://www.unimi.it/it
+   
+v0.0.3 11/04/2024
+  - Modifiche sulla grafica del sito che comprendono (Giorgio)
+    - Nome del sito
+    - Motto del sito
+    - Immagine della schermata iniziale
+    - Una introduzione
+    - Modifiche nav bar (Lorenzo)
 
 Planned:
 - Creare un Homepage
