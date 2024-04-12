@@ -20,7 +20,7 @@ v.0.0.4 12/04/2024
     - Ancient
     - Modern
     - NFT
-    - 
+
 Planned:
 - Creare un Homepage
         - Varie informazioni sull'azienda
