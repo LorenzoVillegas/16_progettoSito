@@ -14,8 +14,9 @@ export class AppComponent implements OnInit{
   // Inject HttpClient into your component or service.
   constructor(private http: HttpClient) {}
 
+  //Per la versione in cui siamo ora non viene utilizzato ancora la ricezione dei dati
   ngOnInit(): void {
     // Make the HTTP request: 
-    this.http.get('https://3000-lorenzovill-16progettos-s37t22o0wzd.ws-eu110.gitpod.io/api').subscribe(data => {this.results = data['results']; });
+    this.http.get('https://3000-lorenzovill-16progettos-kdu3041oeey.ws-eu110.gitpod.io/api').subscribe(data => {this.results = data['results']; });
   }
 }
