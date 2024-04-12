@@ -20,7 +20,9 @@ v.0.0.4 12/04/2024
     - Ancient
     - Modern
     - NFT
-
+  - Testato la ricezione di dati da express (Lorenzo)
+    - Per il codice ispirarsi al seguente link (./OLD_WAY/ESERCITAZIONE) : https://github.com/LorenzoVillegas/14-Tecnologia.git
+    - Utilizzare gli angular services invece dello state: https://www.samarpaninfotech.com/blog/methods-to-share-data-between-angular-components/
 Planned:
 - Creare un Homepage
         - Varie informazioni sull'azienda
