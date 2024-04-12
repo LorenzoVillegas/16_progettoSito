@@ -15,6 +15,12 @@ v0.0.3 11/04/2024
     - Una introduzione
     - Modifiche nav bar (Lorenzo)
 
+v.0.0.4 12/04/2024
+  - Aggiunta di nuovi component funzionanti a livello di routing: (Lorenzo)
+    - Ancient
+    - Modern
+    - NFT
+    - 
 Planned:
 - Creare un Homepage
         - Varie informazioni sull'azienda
