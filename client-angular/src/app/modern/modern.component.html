@@ -10,5 +10,9 @@
 <body>
     <div>
         <p>Catalogo arte moderna</p>
+        <li *ngFor="let results of results">
+          <p>Name: {{ results.nome }}</p>
+          <p>Email: {{ results.autore }}</p>
+        </li>
     </div>
 </body>
