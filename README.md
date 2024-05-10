@@ -41,3 +41,5 @@ Planned:
           - (facoltativo) Descrizione
           - Data di pubblicazione 
 
+v0.0.4b 15/04/2024
+  - Aggiunto nel angular.json un modo per dover scrivere solo "ng serve" senza aver problemi con "Invlaid Host Check Error"
