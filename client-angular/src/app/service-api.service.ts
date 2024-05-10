@@ -10,16 +10,16 @@ export class ServiceAPIService {
 
   public getAPIancient(){
     // Make the HTTP request: 
-    return this.http.get<any>('https://3000-lorenzovill-16progettos-ykvlpciblvo.ws-eu111.gitpod.io/api/ancient');
+    return this.http.get<any>('https://3000-lorenzovill-16progettos-me8vpicexrg.ws-eu111.gitpod.io/api/ancient');
   }
 
   public getAPINFT(){
     // Make the HTTP request: 
-    return this.http.get<any>('https://3000-lorenzovill-16progettos-ykvlpciblvo.ws-eu111.gitpod.io/api/NFT');
+    return this.http.get<any>('https://3000-lorenzovill-16progettos-me8vpicexrg.ws-eu111.gitpod.io/api/NFT');
   }
 
   public getAPImodern(){
     // Make the HTTP request: 
-    return this.http.get<any>('https://3000-lorenzovill-16progettos-ykvlpciblvo.ws-eu111.gitpod.io/api/modern');
+    return this.http.get<any>('https://3000-lorenzovill-16progettos-me8vpicexrg.ws-eu111.gitpod.io/api/modern');
   }
 }

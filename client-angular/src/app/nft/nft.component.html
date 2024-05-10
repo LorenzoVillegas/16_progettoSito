@@ -10,6 +10,11 @@
 <body>
     <div>
         <p>Catalogo NFT</p>
+
+        <li *ngFor="let results of results">
+          <p>Name: {{ results.nome }}</p>
+          <p>Email: {{ results.autore }}</p>
+        </li>
     </div>
 </body>
 
