@@ -15,7 +15,7 @@ export class AncientComponent implements OnInit{
   
   ngOnInit(): void {
     this.ServiceAPI.getAPIancient()
-      .subscribe ( data => {this.results = data.Ancient})
+      .subscribe( data => {this.results = data.Ancient})
   }
 
 }

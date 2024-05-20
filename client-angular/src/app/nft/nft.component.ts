@@ -15,8 +15,6 @@ export class NFTComponent implements OnInit{
   
   ngOnInit(): void {
     this.ServiceAPI.getAPINFT()
-      .subscribe ( data => {this.results = data.NFT})
+      .subscribe( data => {this.results = data.NFT})
   }
-
-
 }

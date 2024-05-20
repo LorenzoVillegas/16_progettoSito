@@ -32,10 +32,17 @@ app.get('/api/NFT', (req, res) => {
         "NFT": [
             {
                 "anno": 2019,
-                "nome": "Monkey D. Luffy",
-                "autore": "Oda",
-                "wikipedia": "https://it.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice",
-                "img": "https://assets1.ignimgs.com/2018/09/04/sekiro---button-1536103897438.jpg"
+                "nome": "Nakamigos",
+                "autore": "Nakamigos #1202",
+                "valore": "0.79 ETH",
+                "img": "https://i.seadn.io/s/raw/files/3c886a7295e7a89829ea0f2ffc1c3240.png"
+            },
+            {
+                "anno": 2020,
+                "nome": "UNIC APE #1",
+                "autore": "54B044",
+                "valore": "0,9 MATIC",
+                "img": "https://i.seadn.io/s/raw/files/08d8baa001bfdb9cf0b94cb04c356feb.jpg"
             },
         ],
      };

@@ -15,7 +15,7 @@ export class ModernComponent implements OnInit{
   
   ngOnInit(): void {
     this.ServiceAPI.getAPImodern()
-      .subscribe ( data => {this.results = data.Modern})
+      .subscribe( data => {this.results = data.Modern})
   }
 
 }

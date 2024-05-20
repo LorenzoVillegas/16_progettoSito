@@ -12,8 +12,12 @@
         <p>Catalogo NFT</p>
 
         <li *ngFor="let results of results">
+          <img src="{{results.img}}">
           <p>Name: {{ results.nome }}</p>
           <p>Autore: {{ results.autore }}</p>
+          <p>Anno di produzione: {{ results.anno }}</p>
+          <p>Valore: {{ results.valore }}</p>
+          
         </li>
     </div>
 </body>
