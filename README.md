@@ -27,19 +27,5 @@ v.0.0.4 12/04/2024
 v0.0.4b 15/04/2024
   - Aggiunto nel angular.json un modo per dover scrivere solo "ng serve" senza aver problemi con "Invlaid Host Check Error"
 
-Planned:
-- Creare un Homepage
-        - Varie informazioni sull'azienda
-        - Scopo del sito
-        - Membri e Partnerships
-- Sviluppare una barra di selezione: Nome del sito e categorie
-      - Nome del sito, ti riporta alla homepage
-      - Categorie, un menu a tendina che si apre in orizzontale
-                - Ancient
-                - Modern
-- Creare una pagina sia per Ancient e per Modern, esporranno le opere d'arte correlate al periodo scelto
-- Ogni opera d'arte avrà una pagina di dettaglio
-          - Immagine dell'opera e nome
-          - Nome dell'autore
-          - (facoltativo) Descrizione
-          - Data di pubblicazione 
+v0.0.8 27/05/2024
+  - Inseriti i dati all'interno del JSON
