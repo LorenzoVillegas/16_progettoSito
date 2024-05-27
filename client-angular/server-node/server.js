@@ -38,7 +38,7 @@ app.get('/api/modern', (req, res) => {
                 "nome": "Baloon Girl",
                 "autore": "Banksy",
                 "descrizione": "L'opera è ricca di interpretazioni. Il palloncino rosso può essere visto come simbolo di speranza, sogni e desideri che rischiano di sfuggire via. La bambina, con la sua espressione malinconica, potrebbe rappresentare la perdita dell'innocenza o la fragilità dei sogni di fronte alle difficoltà della vita.",
-                "img": "https://www.artribune.com/wp-content/uploads/2017/04/Pablo-Picasso-Guernica-1937.-Museo-Nacional-Centro-de-Arte-Reina-Sof%C3%ADa-c-Sucesi%C3%B3n-Pablo-Picasso-VEGAP-2017-scaled.jpg"
+                "img": "https://images.desenio.com/zoom/8448_2.jpg"
             },
             {
                 "anno": 1956,

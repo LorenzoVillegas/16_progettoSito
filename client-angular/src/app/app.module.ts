@@ -8,13 +8,17 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AncientComponent } from './ancient/ancient.component';
 import { ModernComponent } from './modern/modern.component';
 import { NFTComponent } from './nft/nft.component';
+import { InfoComponent } from './info/info.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     AncientComponent,
     ModernComponent,
-    NFTComponent
+    NFTComponent,
+    InfoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

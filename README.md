@@ -29,3 +29,7 @@ v0.0.4b 15/04/2024
 
 v0.0.8 27/05/2024
   - Inseriti i dati all'interno del JSON
+
+v0.0.9 27/05/2024
+  - Miglioramento della grafica delle pagine Modern, Ancient e NFT
+  

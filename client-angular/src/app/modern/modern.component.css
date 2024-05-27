@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  .navbar-brand {
+    color: #fff !important;
+    margin-right: auto; /* Sposta "Music Shop" tutto a sinistra */
+  }
+  .nav-link {
+    color: #fff !important;
+    margin-left: auto; /* Sposta gli elementi del menu a sinistra */
+  }
+  .navbar .form-inline {
+    justify-content: flex-end; /* Sposta la barra di ricerca a destra */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.33% - 20px); /* Larghezza del 33.33% con spazio tra le carte */
+    margin-right: 20px; /* Spazio tra le carte */
+    box-sizing: border-box; /* Calcola la larghezza includendo il padding e il bordo */
+  }
+  .card:nth-child(3n) {
+    margin-right: 0; /* Rimuove il margine destro dalla terza carta in ogni riga */
+  }
+  .card h2 {
+    margin-top: 0;
+  }
+  hr {
+    margin: 0 0 20px;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #catalogo{
+    text-align: center;
+  }

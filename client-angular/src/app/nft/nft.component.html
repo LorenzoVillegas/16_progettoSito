@@ -8,17 +8,17 @@
   <link rel="stylesheet" href="nft.component.css">
 </head>
 <body>
-    <div>
-        <p>Catalogo NFT</p>
-
-        <li *ngFor="let results of results">
-          <img src="{{results.img}}">
-          <p>Name: {{ results.nome }}</p>
-          <p>Autore: {{ results.autore }}</p>
-          <p>Anno di produzione: {{ results.anno }}</p>
-          <p>Valore: {{ results.valore }}</p>
-          
-        </li>
+  <div class="container mt-3">
+    <h1 id="catalogo"><strong>Catalogo NFT</strong></h1>
+    <div class="card" *ngFor="let results of results">
+      <img src="{{results.img}}" width="300" height="300">
+      <div class="card-body">
+        <h4><strong>{{results.autore}}</strong></h4>
+        <h6><strong>{{ results.nome }}</strong></h6>
+        <p class="card-text"><strong>Valore:</strong> {{ results.valore }}</p>
+        <p class="card-text"><strong>Anno:</strong> {{ results.anno }}</p>
+      </div>
     </div>
+  </div>
 </body>
 
